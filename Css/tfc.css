@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-bottom: solid #fffffff3;
+    border-radius: 10px;
+}
+/*Background-lists*/
+.background1 {
+    background-color: #0a6eb1f3;
+}
+/*barra  de navegação*/
+nav{
+    text-decoration: none;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #0a6eb1f3, rgba(0, 0, 0, 0.233));
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: heavitas;
+    color: white;
+    font-family: none;
+    padding: 15px;
+}
+nav a:hover{
+    border-bottom: solid black 2px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+    padding: 15px;
+}
+nav input{
+    margin-left: 180px;
+    align-items: center;
+    width: 350px;
+    height: 30px;
+    border-radius: 20px ;
+    border: none;
+}
+nav input:hover{
+    align-items: center;
+    width: 350px;
+    height: 30px;
+    border-radius: 20px ;
+    border: solid rgba(70, 70, 70, 0.534) 1px;
+}
+nav button{
+    background-color: #0a6eb1f3;
+    color: white;
+    border-radius: 5px;
+    margin-left: 300px;
+}
+/*Alguma coisa :p*/
+.algumacoisa{
+    display: flex;
+}
+.algumacoisa div {
+    display: inline-block;
+    position: relative;
+    padding: 200px; 
+    padding-bottom: 250px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.algumacoisa div h3{
+    color: rgb(98, 182, 154);
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.algumacoisa div div{
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    top: 300px;
+    left: -50px;
+    padding-top: 10px;
+    padding-bottom: 110px;
+    padding-right: 200px;
+    background-image: linear-gradient(to top, #0000009c, rgba(0, 0, 0, 0.185));
+}
+.img1{
+    background:url(https://www.treinus.com.br/blog/wp-content/uploads/2020/05/yoga-1000x530.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: -150px;
+    margin-bottom: 10px;
+}
+.img2 {
+    background:url(https://magscan.com.br/wp-content/uploads/2020/04/original-2ce8ad3de83875daa42bae2bc572c235-1536x1024.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: -200px;
+    margin-bottom: 10px;
+}
+.img3{
+    background:url(https://www.rituaali.com.br/images/upload/post/exercicios-fisicos-ao-ar-livre.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: -200px;
+    margin-bottom: 10px;
+}
+.correção{
+    
+}
+/*textos*/
+article {
+    
+}
+article h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: left;
+    color: rgb(92, 92, 92);
+}
+article p{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(82, 81, 81);
+    font-size: 20px;
+}
+
+
+/*Footer*/
+footer{
+    display: flex;
+    align-items: bottom;
+    background-color: #0a6eb1f3;
+}
+footer ul{
+    margin-top: 20px;
+}
+footer ul li{
+    list-style-type: none;
+    color: white;
+    margin-left: 30px;
+}

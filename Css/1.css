@@ -1,0 +1,47 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.section p img{
+    margin: 20px;
+    float: left;
+    width: 60%;
+    height: 60%;
+}
+.section ul{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    list-style-type: disc;
+}
+#titulo1{
+    box-shadow: rgba(0, 0, 0, 0.425) 20px 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+#art{
+    color: red;
+}
+#Mtit{
+    color: white;
+    font-size: 30px;
+}
+/*imagens*/
+#imagem1{
+    width: 40%;
+    height: 40%;
+}

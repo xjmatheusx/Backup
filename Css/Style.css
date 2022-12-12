@@ -1,0 +1,200 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to bottom,#2188b8f3,#1c5a83cc);
+}
+/*    Cores do site
+   #0a6eb1f3
+*/
+/*barra  de navegação*/
+nav{
+    text-decoration: none;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: none;
+    padding: 15px;
+}
+nav a:hover{
+    transition: 0.6s;
+    background-color: white;
+    color: #0a6eb1f3;
+    text-decoration: none;
+}
+#logo{
+    margin-left: 290px;
+    width: 40px;
+    height: 40px;
+
+}
+#logo_title{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Alguma coisa :p*/
+#titulo{
+    background-color: white;
+    font-size: 30px;
+    border: solid white;
+    border-radius: 0px 0px 30px 30px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.algumacoisa{
+    display: flex;
+}
+.algumacoisa div {
+    display: inline-block;
+    position: relative;
+    padding: 150px; 
+    padding-bottom: 250px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.691) -30px 20px;
+    box-decoration-break: slice;
+}
+.correção{
+    color: rgb(98, 182, 154);
+    position: absolute;
+    text-align: center;
+    margin-right: 80px;
+    top: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.algumacoisa div h3{
+    color: rgba(255, 255, 255, 0.678);
+    position: absolute;
+    left: 105px;
+    top: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.algumacoisa div div{
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    top: 250px;
+    left: -120px;
+    padding-top: 10px;
+    padding-bottom: 110px;
+    padding-right: 150px;
+    background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.379));
+}
+.img1{
+    background:url(https://www.treinus.com.br/blog/wp-content/uploads/2020/05/yoga-1000x530.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: -300px;
+    margin-bottom: 10px;
+}
+.img2 {
+    background:url(https://magscan.com.br/wp-content/uploads/2020/04/original-2ce8ad3de83875daa42bae2bc572c235-1536x1024.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: -160px;
+    margin-bottom: 10px;
+}
+.img3{
+    background:url(https://www.rituaali.com.br/images/upload/post/exercicios-fisicos-ao-ar-livre.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: -100px;
+    margin-bottom: 10px;
+}
+/*textos*/
+article {
+    display: flex;
+
+}
+article h1{
+    box-shadow: -60px -16px #000000ac;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom,#4097d0f3,#15659ea2);  
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: left;
+    color: rgb(255, 255, 255);
+}
+article p{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-right: #fffffff3 solid 8px;
+}
+/*Audio*/
+/* Ancora */
+.ancora{
+    padding-bottom: 10px;
+    transition: 0.6s;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: -30px;
+    border-left: #fffffff3 solid 4px;
+    border-radius: 2px;
+}
+.ancora h3{
+    margin-left: 10px;
+    color: white;
+}
+.ancora ul{
+    list-style-type: none;
+}
+.ancora ul li{
+    color: black;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.ancora li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.ancora ul li a:hover{
+    transition: 0.6s;
+    color: #0a6eb1f3;
+    background-color: white;
+    padding: 10px;
+}
+.display{
+    display: flex;
+}
+.display div{
+    margin: 60px;
+}
+/*---------------------*/
+/*Footer*/
+footer{
+    padding: 20px;
+    background-color: #20282d93;
+    display: flex;
+}
+footer ul{
+    margin-left: 50px;
+    list-style-type: none;
+}
+footer ul li h4{
+    color: white;
+}
+footer ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+footer li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*Media Querry*/
